@@ -5,3 +5,4 @@ python-dotenv==1.0.1
 gunicorn==23.0.0
 pyjwt
 descope
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
